@@ -1,0 +1,25 @@
+{
+    "name": "phenyxdigitale/ofxparser",
+    "description": "Simple OFX file parser",
+    "keywords": [
+        "ofx",
+        "open financial exchange",
+        "finance",
+        "parser"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Hunger",
+            "homepage": "https://ephenyx.com"
+        }
+    ],
+    "require": {
+        "php": ">=8"
+    },
+    "autoload": {
+        "psr-0": {
+            "OfxParser": "lib/"
+        }
+    }
+}
